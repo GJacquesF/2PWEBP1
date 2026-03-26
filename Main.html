@@ -10,71 +10,83 @@
 <body>
 
     <header>
-        <div class="logo">Carnes el Chuy</div>
-        <div class="search-bar">
-            <input type="text" placeholder="Buscar...">
-            <button>BUSCAR</button>
+        <div class="header-top">
+            <div class="logo">Carnes el Chuy</div>
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar...">
+                <button>BUSCAR</button>
+            </div>
         </div>
+        
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section class="hero">
+    <section class="hero" id="inicio">
         <h1>SECCIÓN PRINCIPAL</h1>
     </section>
 
-<h2 class="section-title">Nuestros Cortes Premium</h2>
-    <div class="products-grid">
-        <div class="product-card">
-            <img src="riebe.jpg" alt="Rib Eye">
-            <div class="product-info">
-                <h3>Rib Eye</h3>
-                <p>Corte suave y jugoso con un marmoleo excepcional.</p>
+    <div id="productos">
+        <h2 class="section-title">Nuestros Cortes Premium</h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="riebe.jpg" alt="Rib Eye">
+                <div class="product-info">
+                    <h3>Rib Eye</h3>
+                    <p>Corte suave y jugoso con un marmoleo excepcional.</p>
+                </div>
             </div>
-        </div>
 
-        <div class="product-card">
-            <img src="cowboy.jpg" alt="Cowboy">
-            <div class="product-info">
-                <h3>Cowboy</h3>
-                <p>Rib Eye con hueso corto, ideal para la parrilla.</p>
+            <div class="product-card">
+                <img src="cowboy.jpg" alt="Cowboy">
+                <div class="product-info">
+                    <h3>Cowboy</h3>
+                    <p>Rib Eye con hueso corto, ideal para la parrilla.</p>
+                </div>
             </div>
-        </div>
 
-        <div class="product-card">
-            <img src="porter.jpg" alt="Porterhouse">
-            <div class="product-info">
-                <h3>Porterhouse</h3>
-                <p>El balance perfecto entre New York y Filete.</p>
+            <div class="product-card">
+                <img src="porter.jpg" alt="Porterhouse">
+                <div class="product-info">
+                    <h3>Porterhouse</h3>
+                    <p>El balance perfecto entre New York y Filete.</p>
+                </div>
             </div>
-        </div>
 
-        <div class="product-card">
-            <img src="picanha.jpg" alt="Picanha">
-            <div class="product-info">
-                <h3>Picanha</h3>
-                <p>Corte brasileño con una capa de grasa deliciosa.</p>
+            <div class="product-card">
+                <img src="picanha.jpg" alt="Picanha">
+                <div class="product-info">
+                    <h3>Picanha</h3>
+                    <p>Corte brasileño con una capa de grasa deliciosa.</p>
+                </div>
             </div>
-        </div>
 
-        <div class="product-card">
-            <img src="arrachera.jpg" alt="Arrachera">
-            <div class="product-info">
-                <h3>Arrachera</h3>
-                <p>Textura suave y sabor intenso, la favorita de México.</p>
+            <div class="product-card">
+                <img src="arrachera.jpg" alt="Arrachera">
+                <div class="product-info">
+                    <h3>Arrachera</h3>
+                    <p>Textura suave y sabor intenso, la favorita de México.</p>
+                </div>
             </div>
-        </div>
 
-        <div class="product-card">
-            <img src="costillas.jpg" alt="Costillas">
-            <div class="product-info">
-                <h3>Costillas</h3>
-                <p>Costillas cargadas, tiernas y llenas de sabor.</p>
+            <div class="product-card">
+                <img src="costillas.jpg" alt="Costillas">
+                <div class="product-info">
+                    <h3>Costillas</h3>
+                    <p>Costillas cargadas, tiernas y llenas de sabor.</p>
+                </div>
             </div>
         </div>
-    </div>
     </div>
 
     <div class="info-container">
-        <section class="nosotros">
+        <section class="nosotros" id="nosotros">
             <h2 class="section-title" style="text-align: left; margin-top: 0;">Nuestra Herencia, Su Parrilla</h2>
             
             <p>En <strong style="color: #b30000;">Carnes Don Chuy</strong>, creemos que un buen corte no es solo comida; es el centro de una reunión familiar y el honor de quien domina las brasas.</p>
@@ -95,7 +107,7 @@
             </ul>
         </section>
 
-        <aside class="contacto">
+        <aside class="contacto" id="contacto">
             <h2>CONTACTO</h2>
             <div class="contacto-links">
                 <a href="#" class="contacto-item">
